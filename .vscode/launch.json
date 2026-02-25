@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "bashdb",
+      "request": "launch",
+      "name": "Debug Bash Script",
+      "program": "${workspaceFolder}/test.sh",
+      "args": ["Theo"],
+      "cwd": "${workspaceFolder}",
+      "terminalKind": "integrated"
+    }
+  ]
+}
